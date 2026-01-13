@@ -1,11 +1,71 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 ActionBar {
-  background-color: #65adf1;
-  color: white;
+    background-color: yellowgreen;
+    color: white;
 }
 
 Page {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
+}
+
+.search-field {
+    margin-bottom: 8;
+}
+
+.list-item {
+    padding: 8;
+    border-bottom-width: 1;
+    border-bottom-color: #cccccc;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-category {
+    font-size: 12;
+    color: #888888;
+}
+
+.item-cal {
+    font-size: 12;
+}
+
+.fav-star {
+    font-size: 24;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card {
+    padding: 16;
+    border-radius: 8;
+    background-color: #f4f4f4;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.fav-button {
+    background-color: limegreen;
+    color: white;
+    border-radius: 24;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}
+
+.close-button {
+    background-color: limegreen;
+    color: white;
+    border-radius: 24;
+    padding: 4 8;
+    min-width: 32;
+    min-height: 32;
+    font-size: 16;
 }
